@@ -145,6 +145,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points: 8
   Gm: {fileID: 0}
-  powerupLife: {fileID: 4588724502716117510, guid: 8e4db103f8abcd44cbc75ba5337bf6e5, type: 3}
-  powerupSize: {fileID: 7362669174087145147, guid: 05f4193748bd8884eb9a28c8488f522d, type: 3}
-  Explosion: {fileID: 0}
+  powerup: {fileID: 4588724502716117510, guid: 8e4db103f8abcd44cbc75ba5337bf6e5, type: 3}
+  Explosion: {fileID: 6129291768834629308, guid: bf94004d099362b4ab4d009a8406f952, type: 3}
