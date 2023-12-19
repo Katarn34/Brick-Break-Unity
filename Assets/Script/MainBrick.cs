@@ -8,6 +8,7 @@ public class MainBrick : MonoBehaviour
     public GameManager Gm;
     public Transform powerupLife;
     public Transform powerupSize;
+    public Transform Explosion;
    private void OnCollisionEnter2D(Collision2D _collision)
     {
         //If the ball touch the bricks 50% chance of getting the extra life power up and 25% for the Extra size
@@ -25,7 +26,9 @@ public class MainBrick : MonoBehaviour
 
             Gm.UpdateScore(points);
             Gm.UpdateNumberOfBricks();
+            Instantiate (Explosion, transform.position, transform.rotation);
             Destroy(gameObject);
+
         }
     }
 }
